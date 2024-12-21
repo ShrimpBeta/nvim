@@ -1,6 +1,6 @@
 ### Introduce
 
-This is my personal neovim config based on lazy.vim
+This is my personal neovim config based on lazy.nvim
 
 ### Tutorial
 
