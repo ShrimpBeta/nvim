@@ -69,9 +69,9 @@ return {
       capabilities = capabilities
     }
     -- 为 nginx_language_server 提供 cmp
-    require"lspconfig".nginx_language_server.setup {
-      capabilities = capabilities
-    }
+    -- require"lspconfig".nginx_language_server.setup {
+    --   capabilities = capabilities
+    -- }
     -- 为 powershell_es 提供 cmp
     require"lspconfig".powershell_es.setup {
       capabilities = capabilities
