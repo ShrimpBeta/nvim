@@ -16,6 +16,7 @@ return {
       -- docker
       "docker_compose_language_service",
       "dockerls",
+      "emmet_language_server",
       "gopls",
       "gradle_ls",
       "graphql",
