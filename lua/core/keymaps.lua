@@ -1,5 +1,5 @@
--- vim.g.mapleader = " " -- global leader
--- vim.g.maplocalleader = " " -- local leader
+vim.g.mapleader = " " -- global leader
+vim.g.maplocalleader = " " -- local leader
 local keymap = vim.keymap
 
 -- nvim-tree

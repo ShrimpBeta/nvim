@@ -32,7 +32,7 @@ opt.shiftwidth = 2
 opt.expandtab = true
 opt.autoindent = true
 
--- 防止包裹
+-- 防止显示换行
 opt.wrap = false
 
 -- 光标行
@@ -51,6 +51,7 @@ opt.splitbelow = true
 -- 搜索
 opt.ignorecase = true
 opt.smartcase = true
+opt.hlsearch = true
 
 -- 外观
 opt.termguicolors = true
