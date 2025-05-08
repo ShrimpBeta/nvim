@@ -30,7 +30,8 @@ return {
       "ltex",
       "lua_ls",
       "marksman",
-      -- "nginx_language_server", -- python >=3.8,<3.12
+      "denols",
+      "nginx_language_server",
       "powershell_es",
       "prismals",
       "buf_ls",
