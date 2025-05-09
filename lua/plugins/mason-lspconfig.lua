@@ -36,6 +36,7 @@ return {
       "prismals",
       "buf_ls",
       "pyright",
+      "ruff",
       "rust_analyzer",
       "sqlls",
       "svelte",

@@ -110,6 +110,10 @@ return {
     vim.lsp.config('pyright', {
       capabilities = capabilities
     })
+    -- 为 ruff 提供 cmp
+    vim.lsp.config('ruff', {
+      capabilities = capabilities
+    })
     -- 为 rust_analyzer 提供 cmp
     vim.lsp.config('rust_analyzer', {
       capabilities = capabilities
