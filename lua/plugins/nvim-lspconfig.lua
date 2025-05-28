@@ -78,8 +78,8 @@ return {
         variables = {}
       }
     })
-    -- 为 kotlin_language_server 提供 cmp
-    vim.lsp.config('kotlin_language_server', {
+    -- 为 kotlin-lsp 提供 cmp
+    vim.lsp.config('kotlin-lsp', {
       capabilities = capabilities
     })
     -- 为 ltex 提供 cmp
@@ -131,7 +131,7 @@ return {
       capabilities = capabilities
     })
     -- 为 volar 提供 cmp
-    vim.lsp.config('volar', {
+    vim.lsp.config('vue_ls', {
       capabilities = capabilities
     })
     -- 为 lemminx 提供 cmp
@@ -144,6 +144,10 @@ return {
     })
     -- 为 ast_grep 提供 cmp
     vim.lsp.config('ast_grep', {
+      capabilities = capabilities
+    })
+    -- 为 zig 提供 cmp
+    vim.lsp.config('zls', {
       capabilities = capabilities
     })
   end

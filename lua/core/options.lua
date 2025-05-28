@@ -3,6 +3,7 @@ local opt = vim.opt
 -- 行号
 opt.number = true
 opt.relativenumber = true
+opt.mouse = "a"
 
 -- 字体
 opt.guifont = {"JetBrains Mono", "微软雅黑"}

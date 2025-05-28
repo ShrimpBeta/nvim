@@ -26,7 +26,7 @@ return {
       "eslint",
       "jsonls",
       "ast_grep",
-      "kotlin_language_server",
+      "kotlin-lsp",
       "ltex",
       "lua_ls",
       "marksman",
@@ -43,10 +43,11 @@ return {
       "harper_ls",
       "tinymist",
       "vimls",
-      "volar",
+      "vue_ls",
       "lemminx",
       "gitlab_ci_ls",
-      "yamlls"
+      "yamlls",
+      "zls"
     }
   }
 }

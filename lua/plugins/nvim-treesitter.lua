@@ -9,9 +9,11 @@ return {
       enable = true
     },
     -- 选择需要高亮的语法
-    ensure_installed = {"bash", "c", "diff", "html", "javascript", "jsdoc", "json", "jsonc", "lua", "luadoc", "luap",
-                        "markdown", "markdown_inline", "printf", "python", "query", "regex", "toml", "tsx",
-                        "typescript", "vim", "vimdoc", "xml", "yaml"},
+    ensure_installed = {"asm", "bash", "c", "cmake", "cpp", "css", "dart", "diff", "gitattributes", "gitignore", "go",
+                        "gomod", "graphql", "html", "hurl", "javascript", "jsdoc", "json", "json5", "jsonc", "kotlin",
+                        "latex", "lua", "luadoc", "luap", "make", "markdown", "markdown_inline", "nginx", "nu",
+                        "powershell", "printf", "prisma", "python", "query", "regex", "rust", "toml", "sql", "svelte",
+                        "toml", "tsx", "typescript", "typst", "vim", "vimdoc", "vue", "xml", "yaml", "zig"},
     -- 启用彩色括号
     rainbow = {
       enable = true,
