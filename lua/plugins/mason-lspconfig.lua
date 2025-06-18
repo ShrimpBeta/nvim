@@ -26,7 +26,7 @@ return {
       "eslint",
       "jsonls",
       "ast_grep",
-      "kotlin-lsp",
+      "kotlin_lsp",
       "ltex",
       "lua_ls",
       "marksman",
