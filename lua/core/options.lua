@@ -6,7 +6,7 @@ opt.relativenumber = true
 opt.mouse = "a"
 
 -- 字体
-opt.guifont = {"JetBrains Mono", "微软雅黑"}
+opt.guifont = { "JetBrains Mono", "微软雅黑" }
 
 -- 显示空格
 opt.list = true
@@ -62,3 +62,11 @@ opt.signcolumn = "yes"
 -- 当前命令已移至colorscheme.lua
 -- vim.cmd("colorscheme tokyonight-moon")
 -- vim.cmd([[colorscheme tokyonight-moon]])
+
+-- 加载
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "markdown",
+  callback = function()
+    vim.treesitter.start()
+  end,
+})
