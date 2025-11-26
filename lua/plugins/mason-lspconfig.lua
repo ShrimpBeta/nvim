@@ -20,7 +20,7 @@ return {
       "gopls",
       "gradle_ls",
       "graphql",
-      "groovyls",
+      "groovy-language-server",
       "html",
       "jdtls",
       "eslint",
