@@ -1,6 +1,6 @@
 return {
   "nvim-telescope/telescope.nvim",
-  dependencies = {"nvim-lua/plenary.nvim", "BurntSushi/ripgrep", "sharkdp/fd"},
+  dependencies = { "nvim-lua/plenary.nvim", "BurntSushi/ripgrep", "sharkdp/fd" },
   config = function()
     -- 按键设置
     local builtin = require "telescope.builtin"
