@@ -7,7 +7,7 @@ return {
     --  通用 LSP 配置
     local lsps = { 'angularls', 'bashls', 'clangd', 'cssls', 'dockerls', 'gopls', 'gradle_ls',
       'graphql', 'groovyls', 'html', 'jdtls', 'eslint', 'kotlin_lsp', 'ltex', 'lua_ls',
-      'marksman', 'denols', 'nginx_language_server', 'powershell_es', 'pyright', 'ruff',
+      'marksman', 'nginx_language_server', 'powershell_es', 'pyright', 'ruff',
       'rust_analyzer', 'sqls', "postgres_lsp", 'tinymist', "ty", 'vimls', 'vue_ls',
       'lemminx', 'yamlls', 'ast_grep', 'zls'
     }

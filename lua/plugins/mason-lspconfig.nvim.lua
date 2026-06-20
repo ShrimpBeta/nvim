@@ -30,7 +30,6 @@ return {
       "ltex",
       "lua_ls",
       "marksman",
-      "denols",
       "nginx_language_server",
       "powershell_es",
       "prismals",
