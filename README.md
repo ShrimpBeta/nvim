@@ -4,7 +4,7 @@ This is my personal neovim config based on lazy.nvim
 
 ### Environment
 
-| runtime | package manager | checked version |
+| runtime | checked version |
 |---|---|
 |Node.js|22,24|
 |Python|3.13|
