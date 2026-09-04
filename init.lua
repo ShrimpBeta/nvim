@@ -4,9 +4,9 @@ if vim.g.vscode then
   require("core.keymaps")
   require("core.autocmds")
 else
-  -- ordinary Neovim
-  require("config.lazy")
+  -- ordinary Neovim 
   require("core.options")
+  require("config.lazy")
   require("core.keymaps")
   require("core.autocmds")
 end
