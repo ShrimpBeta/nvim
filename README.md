@@ -5,9 +5,9 @@ This is my personal neovim config based on lazy.nvim
 ### Environment
 
 | runtime | package manager | checked version |
-|---|---|---|
-|Node.js|npm|22|
-|Python|pip|3.13|
+|---|---|
+|Node.js|22,24|
+|Python|3.13|
 
 ### Tutorial
 
