@@ -15,12 +15,6 @@ opt.listchars = {
   tab = "» "
 }
 
--- shell设置
-opt.shell = "pwsh"
-opt.shellcmdflag = "-command"
-opt.shellquote = '"'
-opt.shellxquote = ""
-
 -- 拼写检查
 opt.spell = false
 
